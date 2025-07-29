@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/proxy.js" }
+  ],
+  "regions": ["iad1"] // 项目默认区域
+}
